@@ -10,12 +10,14 @@ body {
     align-items: center;
     margin: 30px 50px;
   }
+  
   nav a {
     color: #FF6060;
     text-decoration: none;
     padding: 20px;
     font-size: 22px;
   }
+  
   @media (max-width: 426px) {
     nav {
       margin: 20px;

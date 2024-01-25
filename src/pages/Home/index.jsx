@@ -1,8 +1,12 @@
+import Banner from '../../components/Banner';
+import Card from '../../components/Card';
+
 function Home(){
   return (
-      <div>
-          <h1>Home</h1>
-      </div>
+      <main>
+          <Banner page='home' />
+          <Card page='home' />
+      </main>
   )
 }
 
