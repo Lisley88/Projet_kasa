@@ -17,6 +17,12 @@ body {
     padding: 20px;
     font-size: 22px;
   }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  nav .active {
+    text-decoration: underline;
+  }
   
   @media (max-width: 426px) {
     nav {
