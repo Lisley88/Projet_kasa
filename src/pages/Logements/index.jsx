@@ -1,5 +1,7 @@
-function FichLogement(){
-  return <h1></h1>
+import '../../styles/Caroussel.scss';
+
+function Logements(){
+  return <h1>Logements</h1>
 }
 
-export default FichLogement
+export default Logements

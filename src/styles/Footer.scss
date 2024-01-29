@@ -1,3 +1,5 @@
+@import './utils/variables.scss';
+
 .footer {
     background-color: black;
     width: 100%;
@@ -13,7 +15,7 @@
 }
 
 .footer-msg {
-    color: white;
+    color: $color-secondary;
     align-items: flex-end;
     font-size: 24px;
 }

@@ -1,6 +1,6 @@
 import imgHome from '../images/image_source_1.png';
 import imgAbout from '../images/image_source_ 2.png';
-import '../styles/Banner.css'
+import '../styles/Banner.scss'
 
 function Banner(props) {
     if (props.page === 'home') {
