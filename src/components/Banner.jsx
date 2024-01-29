@@ -1,5 +1,5 @@
 import imgHome from '../images/image_source_1.png';
-import imgAbout from '../images/image_source_ 2.png';
+import imgApropos from '../images/image_source_ 2.png';
 import '../styles/Banner.scss'
 
 function Banner(props) {
@@ -14,11 +14,11 @@ function Banner(props) {
                 </div>
             </section>
         )
-    } else if (props.page === 'about') {
+    } else if (props.page === 'apropos') {
         return (
             <section className='banner-apropos'>
-                <div className='banner-apropos'>
-                    <img className='img-banner' src={imgAbout} alt='Photo montagne' />
+                <div className='banner-box'>
+                    <img className='img-banner' src={imgApropos} alt='Photo montagne' />
                 </div>
             </section>
         )

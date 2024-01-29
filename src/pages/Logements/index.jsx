@@ -1,7 +1,13 @@
-import '../../styles/Caroussel.scss';
+
 
 function Logements(){
-  return <h1>Logements</h1>
+  return (
+    <main>
+        <div>
+          <img src='' />
+        </div>
+
+    </main>)
 }
 
 export default Logements
