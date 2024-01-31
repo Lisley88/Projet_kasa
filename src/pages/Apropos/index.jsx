@@ -1,7 +1,6 @@
 import Banner from '../../components/Banner';
 import Collapse from '../../components/Collapse';
 import data from '../../datas/apropos.json';
-import image from '../../images/image_source_ 2.png';
 
 
 function Apropos() {

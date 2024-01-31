@@ -18,7 +18,7 @@ function Banner(props) {
         return (
             <section className='banner-apropos'>
                 <div className='banner-box'>
-                    <img className='img-banner' src={imgApropos} alt='Photo montagne' />
+                    <img className='img-banner' src={imgApropos} alt='Montagne' />
                 </div>
             </section>
         )

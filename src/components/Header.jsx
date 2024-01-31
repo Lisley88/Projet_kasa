@@ -10,7 +10,7 @@ function Header() {
              </NavLink>
              <div>
                   <NavLink to='/'>Acceuil</NavLink>
-                  <NavLink to='/Apropos'>A propos</NavLink>
+                  <NavLink to='/Apropos'>A Propos</NavLink>
              </div>
         </nav>
     )
