@@ -4,13 +4,13 @@ import '../styles/Header.scss'
 
 function Header() {
     return (
-        <nav>
+        <nav className='navbar'>
             <NavLink to='/'>
                 <img src={Logo} alt='logo' />
              </NavLink>
              <div>
-                  <NavLink to='/'>Acceuil</NavLink>
-                  <NavLink to='/Apropos'>A Propos</NavLink>
+                  <NavLink className='navbar__menu' to='/'>Acceuil</NavLink>
+                  <NavLink className='navbar__menu' to='/Apropos'>A Propos</NavLink>
              </div>
         </nav>
     )

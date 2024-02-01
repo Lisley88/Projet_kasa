@@ -5,16 +5,27 @@ body {
     font-weight: 500;
   }
   
-  nav {
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 50px;
-    & a {
+    margin: 0px 50px;
+    @media (max-width: 426px) {
+        margin: 20px;
+        & img {
+        width: 40%;
+      }
+    }
+    &__menu {
       color: $color-primary;
       text-decoration: none;
       padding: 20px;
       font-size: 22px;
+      @media (max-width: 426px) {
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
 
       &:hover {
         text-decoration: underline;
@@ -25,20 +36,4 @@ body {
      }
     }
 
-  
- 
-  
-  @media (max-width: 426px) {
-    nav {
-      margin: 20px;
-      & img {
-      width: 40%;
-    }
-      & a {
-      padding: 10px;
-      text-transform: uppercase;
-      font-size: 12px;
-    }
-    }
-  }
   
