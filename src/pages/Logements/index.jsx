@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Carrousel from '../../components/Carrousel';
 import Error from '../../pages/Error';
 import Tags from '../../components/Tags';
-import Rating from '../../components/rating';
+import Rating from '../../components/Rating';
 import Collapse from '../../components/Collapse';
 import logedatas from '../../datas/logements.json';
 import '../../styles/Logements.scss';

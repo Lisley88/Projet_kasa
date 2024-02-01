@@ -22,13 +22,14 @@ function Carrousel({ pictures }) {
                         src={arrowNext}
                         alt="Arrow-right"
                         className="carrousel__arrow-next" />
-                </div>             
+                        
+                    <p className="carrousel__numbering">
+                    {index + 1}/{pictures.length}  
+                    </p > 
+                </div>  
                  ):(
                 ""
-               )}
-                <p className="carrousel__numbering">
-                    {index + 1}/{pictures.length}
-                </p>  
+               )}      
         </div>
     )        
 }
