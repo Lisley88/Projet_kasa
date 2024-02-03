@@ -15,6 +15,11 @@
     position: absolute;
     display: flex;
     align-items: center;
+
+    @media (max-width :768px) {
+        height: 111px;
+        margin-bottom: 22px;
+    }
 }
 
 .img-banner {
@@ -23,9 +28,14 @@
     border-radius: 25px;
     object-fit: cover;
     filter: brightness(75%);
+    
+    @media (max-width :768px) {
+        height: 111px;
+        margin-bottom: 22px;
+    }
 }
 
-.msg-banner{
+.msg-banner {
     color: $color-secondary;
     font-size: 48px;
     font-weight: 500;
@@ -35,4 +45,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+@media (max-width :768px) {
+    .banner {
+        height: 111px;
+        margin-bottom: 22px;
+    }
+
+    .banner-box {
+        height: 111px;
+    }
+
+    .msg-banner {
+        font-size: 24px;
+        text-align: left;
+        margin-left: 16px;
+        width: 65%;
+    }
+
+    .banner-apropos {
+        height: 111px;
+        margin-bottom: 19px;
+
+    }
 }

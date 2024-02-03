@@ -6,11 +6,8 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 2px 30px;
-}
-
-
-@media (max-width:767px) {
-    .tag {
+    
+    @media (max-width:767px) {
         font-size: 10px;
         padding: 2px 22px;
         min-width: fit-content;

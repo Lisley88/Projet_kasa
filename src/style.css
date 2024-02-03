@@ -9,9 +9,7 @@ body {
 main {
     padding-left: 5%;
     max-width: 1440px;
-    padding-right: 5%;
-    margin: auto;
-    min-height: 100vh;
+    padding-right: 5%;  
 }
 
 @media (max-width :768px){

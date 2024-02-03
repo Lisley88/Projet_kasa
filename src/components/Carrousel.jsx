@@ -27,9 +27,7 @@ function Carrousel({ pictures }) {
                     {index + 1}/{pictures.length}  
                     </p > 
                 </div>  
-                 ):(
-                ""
-               )}      
+                 ):("")}      
         </div>
     )        
 }

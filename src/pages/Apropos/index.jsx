@@ -2,7 +2,6 @@ import Banner from '../../components/Banner';
 import Collapse from '../../components/Collapse';
 import data from '../../datas/apropos.json';
 
-
 function Apropos() {
     return (
         <main>
