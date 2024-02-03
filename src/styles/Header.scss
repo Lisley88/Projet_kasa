@@ -4,11 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 50px;
-    padding-left: 5%;
     max-width: 1440px;
+    margin: 40px auto;
+    padding-left: 5%;
     padding-right: 5%;
-    margin: auto;
 
     &__menu {
         color: $color-primary;
@@ -31,16 +30,15 @@
     }  
 
      @media (max-width: 768px) {
-         justify-content:center ;
-         max-width: 768px;
+         justify-content:center;
          font-size: 12px;
          text-transform: uppercase;
-         margin: 20px 10px;
-         padding-left:0;
+         margin: 5% auto;
+         padding-left: 0;
          padding-right: 0;
         
          &__logo {
-             width:40%;
+             width:50%;   
          }
 
          & img {

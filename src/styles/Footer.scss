@@ -31,4 +31,7 @@
             text-align: center;
         }
     }
+    @media (max-width :768px) {
+        padding:60px 0;
+    }
 }
