@@ -10,5 +10,6 @@ main {
     padding-left: 5%;
     max-width: 1440px;
     padding-right: 5%;  
+    margin:0 auto;
 }
 
