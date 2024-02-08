@@ -1,5 +1,6 @@
-import '../styles/Footer.scss'
-import logo from '../images/logo_footer.png'
+import '../styles/Footer.scss';
+import logo from '../images/logo_footer.png';
+
 function Footer(){
     return (
         <footer className='footer'>
