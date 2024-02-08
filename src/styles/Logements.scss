@@ -62,11 +62,6 @@
         height: 36px;
     } 
 
-    &__collapses {
-        display: flex;
-        gap: 76px;
-    }
-
     @media (max-width: 768px) {
         &__details {
             flex-direction: column;

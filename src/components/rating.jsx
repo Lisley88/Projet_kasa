@@ -1,7 +1,7 @@
 import React from "react";
 import ratingStar from "../images/rating-star.svg";
 import greyStar from "../images/rating-greystar.svg";
-import '../styles/rating.scss';
+import '../styles/Rating.scss';
 
 function Rating({ rating }) {
     const stars = [];
@@ -13,6 +13,5 @@ function Rating({ rating }) {
     }
     return <div className='rating'>{stars}</div>;
 }
-
 
 export default Rating;
