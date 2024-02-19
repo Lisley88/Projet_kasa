@@ -9,7 +9,7 @@ function Header() {
                 <img src={Logo} alt='logo' />
              </Link>
              <div className='navbar__menus'>
-                  <NavLink className='navbar__menu' to='/'>Acceuil</NavLink>
+                  <NavLink className='navbar__menu' to='/'>Accueil</NavLink>
                   <NavLink className='navbar__menu' to='/apropos'>A Propos</NavLink>
              </div>
         </nav>
